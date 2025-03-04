@@ -9,6 +9,7 @@ body{
 
  h1 {
     color: white;
+    padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,6 +21,8 @@ body{
 
 h2 {
     text-align: right;
+    margin: 0;
+    color: #bb074f;
 }
 
 a {
@@ -35,8 +38,21 @@ footer {
     padding: 2rem;
 }
 
+div {
+    margin: 0;
+    border: 1rem solid #bb074f;
+    background-color: white;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .mas-vendidos {
     text-align: left;
+    
     color: white;
     background-color: #bb074f;
 }
@@ -44,13 +60,14 @@ footer {
 
 
 .button-conteiner {
-    display: flex;
     justify-content: center;
     align-items: center;
+
+    display: flex;
 }
 
 .button {
-    padding: 15px 30px;
+    padding: 15px 10px;
     font-size: 16px;
     color: white;
     background: linear-gradient(90deg, #00ff22, #09f309);
@@ -70,5 +87,5 @@ footer {
     color: white;
     background: linear-gradient(90deg, #09f309, #09f309);
     border: none;
-    border-radius: 1rem; 
+    
 }
