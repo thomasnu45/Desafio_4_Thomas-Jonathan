@@ -48,3 +48,8 @@ body{
     border: none;
     border-radius: 50px; 
 }
+
+.video-mario {
+    justify-content: center;
+    text-align: center;
+}

@@ -9,17 +9,20 @@ body{
 
  h1 {
     color: white;
-    padding: 2rem;
+    border-left:1rem solid white;
+    border-right: 1rem solid white;
+    padding: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center; 
     background-color: #bb074f;
-    border: none;
+   
  
  }
 
 h2 {
+    text-decoration: dashed;
     text-align: right;
     margin: 0;
     color: #bb074f;
@@ -41,23 +44,32 @@ footer {
 div {
     margin: 0;
     border: 1rem solid #bb074f;
-    background-color: white;
+    background-color:  white;
 }
 
 img {
-    display: block;
+    display: flex;   
     margin-left: auto;
     margin-right: auto;
 }
+
+
 
 .mas-vendidos {
     text-align: left;
     
     color: white;
     background-color: #bb074f;
+    
 }
 
-
+.dotted-line {
+    width: 98%;
+    background-color: white;
+    margin: 0;
+    border: white;
+    border-top: 1px dashed #a10f37;
+}
 
 .button-conteiner {
     justify-content: center;
@@ -67,12 +79,15 @@ img {
 }
 
 .button {
-    padding: 15px 10px;
+    
+    padding:15px 10px;
     font-size: 16px;
     color: white;
-    background: linear-gradient(90deg, #00ff22, #09f309);
+    background-color:  #00ff22;
     border: none;
-    border-radius: 1rem;
+     border-left:32rem solid white;
+    border-right: 32rem solid white;
+      border-radius: 10px;
 }
 
 .button-conteiner-2 {
@@ -86,6 +101,39 @@ img {
     font-size: 16px;
     color: white;
     background: linear-gradient(90deg, #09f309, #09f309);
-    border: none;
+     border-right: 64rem solid #bb074f;
     
 }
+
+.button-compra {
+        padding:15px 10px;
+    font-size: 16px;
+    color: white;
+    background-color:  #00ff22;
+    border: none;
+     border-left:32rem solid #bb074f;
+    border-right: 32rem solid #bb074f;
+    
+}
+
+.info-compra {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    background-color: #bb074f;
+    border-color: #bb074f;
+    margin: 0;
+}
+
+.pie-de-pagina{
+    background-color: rgb(255, 198, 231);
+}
+
+.contenedor-video {
+    display: block;
+    width: 80%;
+    margin: 40px auto;
+}
+
