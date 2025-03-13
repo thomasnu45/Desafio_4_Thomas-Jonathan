@@ -141,7 +141,16 @@ img {
 .text {
     margin: 2rem 0;
     padding: 1.5rem;
-    background-color: #fff;
+    background-color: #555;
+    border-radius: 0.5rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+}
+
+.text-2 {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background-color: #555;
     border-radius: 0.5rem;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     line-height: 1.6;
@@ -150,7 +159,7 @@ img {
 .text p {
     margin: 1rem 0;
     font-size: 1rem;
-    color: #555;
+    color: #fff;
 }
 a:visited {
     text-decoration: none;
