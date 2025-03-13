@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 1rem;
-    color: #333;
-    background-color: #f5f5f5;
+    color: #fff;
+    background-color: #333;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -10,7 +10,7 @@ h1 {
     font-size: 2.5rem;
     margin: 2rem 0;
     text-align: center;
-    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
     color: white;
     padding: 1rem;
     border-radius: 0.5rem;
@@ -18,11 +18,21 @@ h1 {
 
 h2 {
     text-align: center;
-    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
     color: white;
     padding: 0.5rem;
     border-radius: 0.5rem;
 }
+
+footer {
+    background-color: #bb074f;
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
 
 .button-conteiner {
     display: flex;
@@ -35,7 +45,7 @@ h2 {
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
     color: white;
-    background: linear-gradient(90deg, #ff416c, #ff4b2b);
+    background: linear-gradient(90deg,#00c6ff, #0072ff);
     border: none;
     border-radius: 0.5rem;
     margin: 1rem 0;
@@ -44,7 +54,7 @@ h2 {
 }
 
 .button:hover {
-    background: linear-gradient(90deg, #ff4b2b, #ff416c);
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
@@ -79,7 +89,7 @@ h2 {
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
     color: white;
-    background: linear-gradient(90deg, #ff416c, #ff4b2b);
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
     border: none;
     border-radius: 0.5rem;
     margin: 1rem 0;
@@ -88,9 +98,10 @@ h2 {
 }
 
 .button-return:hover {
-    background: linear-gradient(90deg, #ff4b2b, #ff416c);
+    background: linear-gradient(90deg,#00c6ff, #0072ff);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
 
 .video-mario {
     display: flex;
@@ -119,6 +130,14 @@ h2 {
     object-fit: cover;
 }
 
+img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 98%;
+    height: auto;
+}
+
 .text {
     margin: 2rem 0;
     padding: 1.5rem;
@@ -139,4 +158,8 @@ a:visited {
   
 a:link {
     text-decoration: none;
+}
+
+.pie-de-pagina {
+    background-color: #555;
 }
