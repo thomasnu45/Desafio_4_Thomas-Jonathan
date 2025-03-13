@@ -141,7 +141,14 @@ img {
     margin: 2rem 0;
 }
 
-
+.text-2 {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+}
 
 .pie-de-pagina {
     background-color: rgb(255, 198, 231);
